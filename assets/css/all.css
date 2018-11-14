@@ -10,9 +10,18 @@
 	border-right: 0;
 }
 
-.logo {
-	width: 150px;
+.header {
+	margin: 0 0 40px;
 }
 
+footer small {
+	width: 78%;
+	float: left;
+}
+
+.logo {
+	display: inline-block;
+	width: 150px;
+}
 
 /*# sourceMappingURL=all.css.eb9ca927.map */
