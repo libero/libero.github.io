@@ -38,6 +38,10 @@ main {
 	text-align: center;
 }
 
+.site-footer__container img {
+	max-height: none;
+}
+
 footer small {
 	text-align: center;
 }
