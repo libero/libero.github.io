@@ -14,11 +14,9 @@
 	margin: 0 0 40px;
 }
 
-.logo {
-	display: inline-block;
-	width: 150px;
+main {
+	border-top: none;
 }
-
 
 .partners-logo-wrapper {
 	margin: 25px 0;
@@ -27,6 +25,20 @@
 
 .partners-logo-container {
 	padding: 1.5rem;
+	text-align: center;
+}
+
+.site-footer__container {
+	text-align: center;
+}
+
+.site-footer__container a {
+	display: block;
+	margin: 0 auto 36px;
+	text-align: center;
+}
+
+footer small {
 	text-align: center;
 }
 
@@ -49,12 +61,6 @@
 			justify-self: center;
 		}
 	}
-
-	footer small {
-		width: 78%;
-		float: left;
-	}
-
 }
 
 /*# sourceMappingURL=all.css.eb9ca927.map */
