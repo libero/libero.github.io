@@ -10,5 +10,61 @@
 	border-right: 0;
 }
 
+.header {
+	margin: 0 0 40px;
+}
+
+main {
+	border-top: none;
+}
+
+.partners-logo-wrapper {
+	margin: 25px 0;
+	overflow: hidden;
+}
+
+.partners-logo-container {
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.site-footer__container {
+	text-align: center;
+}
+
+.site-footer__container a {
+	display: block;
+	margin: 0 auto 36px;
+	text-align: center;
+}
+
+.site-footer__container img {
+	max-height: none;
+}
+
+footer small {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+	.partners-logo-container {
+		padding: 1.5rem;
+		float: left;
+		text-align: center;
+	}
+
+	@supports (display:grid) {
+		.partners-logo-wrapper {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		.partners-logo-container {
+			float: none;
+			justify-self: center;
+		}
+	}
+}
 
 /*# sourceMappingURL=all.css.eb9ca927.map */
